@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-01-2017, 23:09:18
+    Author     : David Cardenas
+*/
+body{
+    background-color: #CAC7C7;
+    /* background-image: url(../images/background-engine.jpg);*/
+
+
+}
+
+div.menu{
+    text-align: center;
+}
+.menu div.ui-menubar {
+    text-align: center;
+}
+.menu .ui-menu-list{
+    width:100%;
+    display: inline-flex;
+}
+
+div.menu>ul.ui-menu-list>li{
+    width: 100%;
+    margin-left: 10%;
+}
+.ui-menuitem-text{
+    float: none!important;
+}
+
+.contenido{
+
+    margin-top: 0px; 
+    margin-right: auto; 
+    margin-bottom: 0px; 
+    margin-left: auto;
+    width: 90vw; 
+    border: background;
+    background-color: #F5F5F5;
+}
+
+.slider{
+    overflow:hidden;
+    height:50vh;
+
+}
+.slider figure div {
+    width: 20%;
+    float: left;
+}
+
+.slider figure img{
+    width:100%;
+    height: auto;
+    float: left;
+}
+
+.slider figure{
+    position:relative;
+    width:500%;
+    margin:0;
+    left:0;
+    animation: 20s slidy infinite;
+}
+
+@keyframes slidy{
+    0%{
+        left:0%;
+    }
+    15%{
+        left:0%;
+    }
+    30%{
+        left:-100%;
+    }
+    60%{
+        left:-100%;
+    }
+    75%{
+        left:-200%;
+    }
+    90%{
+        left:-200%;
+    }
+
+
+}

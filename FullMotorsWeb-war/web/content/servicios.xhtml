@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <ui:composition>
+
+            <p:tabView>
+                <p:tab title="Rectificado de culata">
+                    <h:panelGrid columns="2" cellpadding="10">
+                        <p:graphicImage name="images/culata_sm.jpg" />
+                        <h:outputText
+                            value="El primer paso en el proceso de rectificación de 
+                            culatas es desmontarlas y limpiarlas para poder comprobar 
+                            medidas de altura.
+                            Para comprobar la existencia de grietas o fisuras se sumerge 
+                            la culata a temperaturas de 90 ºC. En caso de encontrar 
+                            una grieta estas culatas son desechadas.
+                            Los asientos de culatas son rectificados en cotas y 
+                            alturas y pasan a anillarse utilizando acero de alta calidad.
+                            El siguiente paso es planear culatas según normas A.N.R. 
+                            respetando siempre las cotas.
+                            Se alinean los puentes de alojamiento de árboles de levas 
+                            mediante maquinaria de precisión.
+                            Seguidamente se procede al montaje de pequeños componentes 
+                            de la culata como retenes, válvulas, guías, asientos, etc. 
+                            Todas las piezas utilizadas son nuevas.
+                            Una vez finalizado el proceso de rectificado de culata se 
+                            puede entregar completa, completa con arbol de levas o desnudas, 
+                            según se ajuste mejor a las necesidades del cliente. " />
+                    </h:panelGrid>
+                </p:tab>
+                <p:tab title="Rectificado de pistones">
+                    <h:panelGrid columns="2" cellpadding="10">
+                        <p:graphicImage name="images/piston2_sm.png" height="200px"/>
+                        <h:outputText value="Francis Ford Coppola's legendary..." />
+                    </h:panelGrid>
+                </p:tab>
+                <p:tab title="Rectificado de cilindros">
+                    <h:panelGrid columns="2" cellpadding="10">
+                        <p:graphicImage name="images/cylinders_sm.png" height="200px" />
+                        <h:outputText value="After a break of more than 15 years..." />
+                    </h:panelGrid>
+                </p:tab>
+                <p:tab title="Rectificado de cigüeñales">
+                    <h:panelGrid columns="2" cellpadding="10">
+                        <p:graphicImage name="images/ciguenal_sm.png" height="200px" />
+                        <h:outputText value="After a break of more than 15 years..." />
+                    </h:panelGrid>
+                </p:tab>
+            </p:tabView>
+
+        </ui:composition>
+
+    </h:body>
+</html>
+
